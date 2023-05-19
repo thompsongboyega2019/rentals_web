@@ -2126,7 +2126,7 @@ screen and (max-height:300px) {
 }
 .homepage-9 .sec-title {
     text-align: center;
-    padding-bottom: 2rem;
+    /**padding-bottom: 2rem;**/
 }
 .homepage-9 .sec-title h2 {
     color: #111;
@@ -2237,7 +2237,7 @@ screen and (max-height:300px) {
     background: #fff;
 }
 .homepage-9.homepage-4 .head-tr.bottom {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgb(255, 255, 255);
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }

@@ -341,7 +341,7 @@ a.button {
 }
 
 #header.cloned {
-    padding: 18px 0 20px 0;
+    padding: 18px 80px 20px 80px;
 }
 
 .sticky-logo {
@@ -1643,9 +1643,8 @@ transform: rotate(-90deg);
     }
 
     #header {
-        padding-top: 20px;
-        padding-right: 0px;
-        padding-left: 0px;
+        padding: 10px 0px 60px;
+       
     }
 
     #logo {

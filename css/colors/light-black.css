@@ -36,6 +36,7 @@
 }
 #navigation.style-1 ul li:hover {
     background: #08808e;
+	
 }
 .twitter-widget.contuct .twitter-area .text h5 a {
 	color: #293046;
@@ -131,7 +132,7 @@ a.button.border, a.button {
 	background: #252525;
 }
 .go-up {
-	background: #293046;
+	background: #ff0101;
 }
 .main-search-field {
 	background: #293046;
@@ -192,8 +193,8 @@ a.button.border, a.button {
 	border-color: #293046;
 }
 .page-item.active .page-link {
-    background: #293046;
-    border-color: #293046;
+    background: #fa1a1a;
+    border-color: #fa1a1a;
 }
 .page-link {
     color: #293046;
@@ -208,8 +209,8 @@ a.button.border, a.button {
 .inner-pages .blog .blog-info.details h5::after,
 .inner-pages .blog .property-location h5::after,
 .inner-pages .blog .team.assigned h5::after {
-	color: #293046;
-	background-color: #293046;
+	color: #ff0101;
+	background-color: #ff0101;
 }
 .inner-pages .blog .homes-content.details .fa {
 	color: #293046;
@@ -261,7 +262,7 @@ a.button.border, a.button {
 	background: #293046;
 }
 .blog .blog-pots .fa {
-	color: #293046;
+	color: #fa1a1a;
 }
 .btn-secondary {
 	background: #293046;
@@ -294,17 +295,17 @@ a.button.border, a.button {
 	border: 1px solid #293046;
 }
 .inner-pages .contact-us .btn {
-	background: #293046;
-	border: 1px solid #293046;
+	background: #08808e;
+	border: 1px solid #08808e;
 }
 .inner-pages .contact-us .btn:hover {
-	border: 1px solid #293046;
+	border: 1px solid #ff0101;
 }
 .inner-pages .call-info h3::after {
-	background-color: #293046;
+	background-color: #ff0101;
 }
 .inner-pages .call-info ul li .fa {
-	color: #293046;
+	color: #000;
 }
 .inner-pages .single-add-property > h3 {
 	color: #293046;
@@ -384,7 +385,7 @@ section.pricing-table {
     background-color: #293046;
 }
 .info-help .info-head .info-text .btn-pro {
-    background: #293046;
+    background: #fa1a1a;
 }
 .slick-dots li.slick-active {
     box-shadow: inset 0 0 0 6px #687389 !important;
@@ -402,13 +403,13 @@ section.pricing-table {
 }
 .newsletters p, 
 .first-footer .netabout p {
-    color: #666;
+    color: #fff;
 }
 .first-footer .contactus .info p {
-    color: #666;
+    color: #fff;
 }
 .first-footer .contactus ul li .fa, .first-footer h3, .navigation ul li a, .twitter-widget.contuct .twitter-area .icon-holder i, .twitter-widget.contuct .twitter-area .text h5 {
-    color: #333;
+    color: #fff;
 }
 .first-footer .bloq-email .email input[type="email"] {
     border: 1px solid #293046;
@@ -416,7 +417,7 @@ section.pricing-table {
     color: #fff;
 }
 .second-footer p {
-    color: #666;
+    color: #fff;
 }
 .second-footer p .fa-heart:before {
     color: #293046 !important;
