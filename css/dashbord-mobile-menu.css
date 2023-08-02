@@ -2,21 +2,22 @@
     margin-bottom: 30px;
 }
 .dashboard_navigationbar .dropbtn {
-    background-color: rgb(255, 255, 255);
+    background-color: #056874;
+    color: #fff;
     border: none;
     border-radius: 5px;
     display: block;
-    height: 70px;
+    height: 50px;
     margin-bottom: 30px;
     outline: none;
-    padding: 20px 30px;
+    padding: 10px 30px;
     position: relative;
     text-align: left;
     width: 100%;
 }
 .dashboard_navigationbar .dropbtn:hover,
 .dashboard_navigationbar .dropbtn:focus {
-    background-color: rgb(255, 255, 255);
+    background-color: #08808e;
     border: none;
     cursor: pointer;
     outline: none;
@@ -96,7 +97,7 @@
 }
 @media only screen and (max-width: 992px) {
     .mobile-dashbord.dashbord {
-        padding-top: 45px;
+        /* padding-top: 45px; */
     }
 }
 @media only screen and (min-width: 1025px) {

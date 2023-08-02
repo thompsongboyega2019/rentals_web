@@ -213,7 +213,7 @@ a.button.border, a.button {
 	background-color: #ff0101;
 }
 .inner-pages .blog .homes-content.details .fa {
-	color: #293046;
+	color: #08808e;
 }
 .inner-pages .button.alt {
 	background-color: #293046;
@@ -253,7 +253,8 @@ a.button.border, a.button {
 	border: 1px solid #293046;
 }
 #login .btn_1, a.btn_1 {
-    background: #293046;
+    background: #000;
+	/* border: 1px solid #08808e; */
 }
 .inner-pages .blog .social .date {
 	background-color: #293046;
@@ -270,9 +271,9 @@ a.button.border, a.button {
 .single-blog-post .img-box .overlay {
 	background: rgba(24, 186, 96, 0.8);
 }
-.inner-pages .form-control {
+/* .inner-pages .form-control {
 	border: 1px solid #293046;
-}
+} */
 .inner-pages .input-group-btn .btn-primary {
 	background: #687389;
 	border: 1px solid #293046;

@@ -32,6 +32,7 @@ img {
     position: relative;
     z-index: 999;
     padding: 22px 80px 80px 80px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 /* Header Widget */
@@ -389,6 +390,7 @@ a.button {
     visibility: visible;
     transform: translate(0, 0) scale(1);
     transition: 0.3s;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .head-tr.bottom {
