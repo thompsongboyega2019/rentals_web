@@ -8,7 +8,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="Rentals Property">
     <meta name="author" content="TheBuston'City">
-    <title>Tenant | Dashboard</title>
+    <title>Tenant | Edit Profile </title>
     <!-- FAVICON -->
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../css/jquery-ui.css">
@@ -33,7 +33,7 @@
     <link rel="stylesheet" id="color" href="../css/default.css">
 </head>
 
-<body id="tenant-dashboard" class="maxw1600 m0a dashboard-bd">
+<body id="tenant-dashboard" class="inner-pages maxw1600 m0a dashboard-bd">
     <!-- Wrapper -->
     <div id="wrapper" class="int_main_wraapper">
         <!-- START SECTION HEADINGS -->
@@ -50,16 +50,7 @@
                             <div id="logo">
                                 <a href="index.html"><img src="../images/logos/logo.png" alt=""></a>
                             </div>
-                            <!-- Mobile Navigation -->
-                            <!-- <div class="mmenu-trigger">
-                                <button class="hamburger hamburger--collapse" type="button">
-                                    <span class="hamburger-box">
-							<span class="hamburger-inner"></span>
-                                    </span>
-                                </button>
-                            </div> -->
-                            
-                        </div>
+                            </div>
                         <!-- Left Side Content / End -->
                         <!-- Right Side Content / --> 
                         <div class="header-user-menu user-menu">
@@ -98,7 +89,7 @@
                             <div class="detail clearfix">
                                 <ul class="mb-0">
                                     <li>
-                                        <a class="active" href="dashboard.html">
+                                        <a href="dashboard.html">
                                             <i class="fa fa-dashboard"></i>Dashboard
                                         </a>
                                     </li>
@@ -181,157 +172,19 @@
                                 </div>
                             </div>
                         </div>
-                        <!--Quick Tabs Begin-->
-                        <div class="dashborad-box stat bg-white">
-                            <h4 class="title">Dashboard</h4>
-                            <div class="section-body">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-xs-12">
-                                        <div class="item dar pro">
-                                            <div class="icon">
-                                                <i class="fa fa-money" aria-hidden="true"></i>
-                                            </div>
-                                            <div class="info">
-                                                <h6 class="number">4</h6>
-                                                <p class="type ml-1">Paid Rents</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-xs-12">
-                                        <div class="item dar pro">
-                                            <div class="icon">
-                                                <i class="fas fa-bell"></i>
-                                            </div>
-                                            <div class="info">
-                                                <h6 class="number">10</h6>
-                                                <p class="type ml-1">Notifications</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-xs-12">
-                                        <div class="item mb-0 dar pro">
-                                            <div class="icon">
-                                                <i class="fas fa-warning"></i>
-                                            </div>
-                                            <div class="info">
-                                                <h6 class="number">2</h6>
-                                                <p class="type ml-1">Outstanding</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                        <!--Edit Profile Begins-->
+                        <div id="outstanding" class="single-add-property">
+                            <h3>Edit Profile</h3>
+                            <div class="agent-contact-form-sidebar">
+                                <form name="contact_form" method="post" action="">
+                                    <input type="text" id="yname" name="your-name" placeholder="Your Name" required />
+                                    <input type="text" id="pnumber" name="phone_number" placeholder="Phone Number" required />
+                                    <input type="email" id="emailid" name="email_address" placeholder="Email Address" required />
+                                    <input type="submit" name="sendmessage" class="multiple-send-message" value="Update Profile" />
+                                </form>
                             </div>
                         </div>
-                        <!--Quick Tabs End-->
-                        <!--Quick Quick Tools Begin-->
-                        <div id="quick-tools" class="dashborad-box stat bg-white">
-                            <h4 class="title">Quick Tools</h4>
-                            <div class="section-body">
-                                <div class="row">
-                                    <div class="col-lg-3 col-md-3 col-xs-6 col-6">
-                                        <a class="quick-tool-link" href="request-form.html">
-                                            <div class="item dar pro quick-tool-pro first">
-                                                <div class="icon quick-tool-icon">
-                                                    <i class="fa fa-wrench" aria-hidden="true"></i>
-                                                </div>
-                                                <div class="">
-                                                    <p class="type p-sm-lh-20 sm-fs-14">Request Maintenance</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-xs-6 col-6">
-                                        <a class="quick-tool-link" href="outstanding.html">
-                                            <div class="item dar pro quick-tool-pro second">
-                                                <div class="icon quick-tool-icon">
-                                                    <i class="fa fa-credit-card" aria-hidden="true"></i>
-                                                </div>
-                                                <div class="">
-                                                    <p class="type p-sm-lh-20 sm-fs-14">Make Payment</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-xs-6 col-6">
-                                        <a class="quick-tool-link" href="report-issue.html">
-                                            <div class="item dar pro quick-tool-pro first">
-                                                <div class="icon quick-tool-icon">
-                                                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
-                                                </div>
-                                                <div class="">
-                                                    <p class="type p-sm-lh-20 sm-fs-14">Report An Issue</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-xs-6 col-6">
-                                        <a class="quick-tool-link" href="apartment-details.html">
-                                            <div class="item dar pro quick-tool-pro second">
-                                                <div class="icon quick-tool-icon">
-                                                    <i class="fa fa-home" aria-hidden="true"></i>
-                                                </div>
-                                                <div class="">
-                                                    <p class="type p-sm-lh-20 sm-fs-14">Apartment Details</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Quick Tools End-->
-                        <!--Recent Activity Begins-->
-                        <div id="history" class="dashborad-box">
-                            <div class="widget-boxed-header">
-                                <h4>Recent Activity</h4>
-                            </div>
-                            <div class="section-body listing-table">
-                                <div class="table-responsive">
-                                    <table class="table table-striped">
-                                        <thead>
-                                            <tr>
-                                                <th>Activities</th>
-                                                <th>Date</th>
-                                                <th>Amount ($)</th>
-                                                <th>Status</th>
-                                                <th></th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Bank transfer</td>
-                                                <td>Jan 23rd, 2023</td>
-                                                <td class="amount">1000</td>
-                                                <td class="status"><span class=" active">Successful</span></td>
-                                                <td class="activity-detail-btn"><a href="transaction-details.html">Details</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Tax payment</td>
-                                                <td>Feb 3rd, 2023</td>
-                                                <td class="amount">100</td>
-                                                <td class="status"><span class=" active">Successful</span></td>
-                                                <td class="activity-detail-btn"><a href="transaction-details.html">Details</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Bank transfer</td>
-                                                <td>Mar 1st, 2023</td>
-                                                <td class="amount">500</td>
-                                                <td class="status"><span class=" active">Successful</span></td>
-                                                <td class="activity-detail-btn"><a href="transaction-details.html">Details</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Bank transfer</td>
-                                                <td>Apr 16th, 2023</td>
-                                                <td class="amount">200</td>
-                                                <td class="status"><span class=" active">Successful</span></td>
-                                                <td class="activity-detail-btn"><a href="transaction-details.html">Details</a></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Recent Activity Ends-->
+                        <!--Edit Profile Ends-->
                         <!-- START FOOTER -->
                         <div class="second-footer">
                             <div class="container">
@@ -347,6 +200,7 @@
         <a data-scroll href="#wrapper" class="go-up"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
         <!-- END FOOTER -->
 
+       
 
         <!-- ARCHIVES JS -->
         <script src="../js/jquery-3.5.1.min.js"></script>
@@ -378,11 +232,18 @@
         <script src="../js/dashbord-mobile-menu.js"></script>
         <script src="../js/forms-2.js"></script>
         <script src="../js/color-switcher.js"></script>
+        <script src="../js/dropzone.js"></script>
 
         <script>
             $(".header-user-name").on("click", function() {
                 $(".header-user-menu ul").toggleClass("hu-menu-vis");
                 $(this).toggleClass("hu-menu-visdec");
+            });
+
+        </script>
+        <script>
+            $(".dropzone").dropzone({
+                dictDefaultMessage: "<i class='fa fa-cloud-upload'></i> Click here or drop files to upload",
             });
 
         </script>

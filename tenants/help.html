@@ -8,7 +8,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="Rentals Property">
     <meta name="author" content="TheBuston'City">
-    <title>Tenant | Dashboard</title>
+    <title>Tenant | Help </title>
     <!-- FAVICON -->
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../css/jquery-ui.css">
@@ -33,7 +33,7 @@
     <link rel="stylesheet" id="color" href="../css/default.css">
 </head>
 
-<body id="tenant-dashboard" class="maxw1600 m0a dashboard-bd">
+<body id="tenant-dashboard" class="inner-pages maxw1600 m0a dashboard-bd">
     <!-- Wrapper -->
     <div id="wrapper" class="int_main_wraapper">
         <!-- START SECTION HEADINGS -->
@@ -50,16 +50,7 @@
                             <div id="logo">
                                 <a href="index.html"><img src="../images/logos/logo.png" alt=""></a>
                             </div>
-                            <!-- Mobile Navigation -->
-                            <!-- <div class="mmenu-trigger">
-                                <button class="hamburger hamburger--collapse" type="button">
-                                    <span class="hamburger-box">
-							<span class="hamburger-inner"></span>
-                                    </span>
-                                </button>
-                            </div> -->
-                            
-                        </div>
+                            </div>
                         <!-- Left Side Content / End -->
                         <!-- Right Side Content / --> 
                         <div class="header-user-menu user-menu">
@@ -98,12 +89,12 @@
                             <div class="detail clearfix">
                                 <ul class="mb-0">
                                     <li>
-                                        <a class="active" href="dashboard.html">
+                                        <a href="dashboard.html">
                                             <i class="fa fa-dashboard"></i>Dashboard
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="help.html">
+                                        <a class="active" href="help.html">
                                             <i class="fa fa-info"></i>Help
                                         </a>
                                     </li>
@@ -143,12 +134,12 @@
                                     <button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars pr10 mr-2"></i>Navigation</button>
                                     <ul id="myDropdown" class="dropdown-content">
                                         <li>
-                                            <a class="active" href="dashboard.html">
+                                            <a href="dashboard.html">
                                                 <i class="fa fa-dashboard"></i>Dashboard
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="help.html">
+                                            <a class="active"  href="help.html">
                                                 <i class="fa fa-info"></i>Help
                                             </a>
                                         </li>
@@ -181,157 +172,68 @@
                                 </div>
                             </div>
                         </div>
-                        <!--Quick Tabs Begin-->
-                        <div class="dashborad-box stat bg-white">
-                            <h4 class="title">Dashboard</h4>
-                            <div class="section-body">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-xs-12">
-                                        <div class="item dar pro">
-                                            <div class="icon">
-                                                <i class="fa fa-money" aria-hidden="true"></i>
-                                            </div>
-                                            <div class="info">
-                                                <h6 class="number">4</h6>
-                                                <p class="type ml-1">Paid Rents</p>
-                                            </div>
+                        <!--Help Center Form Begins-->
+                        <div class="single-add-property">
+                            <h3>Help Center</h3>
+                            <div class="row mb-5">
+                                <div class="col-lg-8 col-md-12">
+                                   <form id="contactform" class="contact-form" name="contactform" method="post" novalidate>
+                                        <div id="success" class="successform">
+                                            <p class="alert alert-success font-weight-bold" role="alert">Your message was sent successfully!</p>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-xs-12">
-                                        <div class="item dar pro">
-                                            <div class="icon">
-                                                <i class="fas fa-bell"></i>
-                                            </div>
-                                            <div class="info">
-                                                <h6 class="number">10</h6>
-                                                <p class="type ml-1">Notifications</p>
-                                            </div>
+                                        <div id="error" class="errorform">
+                                            <p>Something went wrong, try refreshing and submitting the form again.</p>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-xs-12">
-                                        <div class="item mb-0 dar pro">
-                                            <div class="icon">
-                                                <i class="fas fa-warning"></i>
-                                            </div>
-                                            <div class="info">
-                                                <h6 class="number">2</h6>
-                                                <p class="type ml-1">Outstanding</p>
-                                            </div>
+                                        <div class="form-group">
+                                            <input type="text" required class="form-control input-custom input-full" name="name" placeholder="First Name">
                                         </div>
+                                        <div class="form-group">
+                                            <input type="text" required class="form-control input-custom input-full" name="lastname" placeholder="Last Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control input-custom input-full" name="email" placeholder="Email">
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control textarea-custom input-full" id="ccomment" name="message" required rows="8" placeholder="Message"></textarea>
+                                        </div>
+                                        <button type="submit" id="help-submit-btn" class="btn btn-primary btn-lg">Send Message</button>
+                                    </form>
+                                </div>
+                                <div class="col-lg-4 col-md-12 bgc bgc-2">
+                                    <div class="call-info">
+                                        <h3>Contact Your Landlord</h3>
+                                        <ul>
+                                            <li>
+                                                <div class="info">
+                                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                    <p class="in-p">Ontario, Canada</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="info">
+                                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                                    <p class="in-p">+1 (647) 201-7149</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="info">
+                                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                                    <p class="in-p ti">info@rentalsproperty.ca</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="info cll">
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                    <p class="in-p ti">8:00 a.m - 9:00 p.m</p>
+                                                </div>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!--Quick Tabs End-->
-                        <!--Quick Quick Tools Begin-->
-                        <div id="quick-tools" class="dashborad-box stat bg-white">
-                            <h4 class="title">Quick Tools</h4>
-                            <div class="section-body">
-                                <div class="row">
-                                    <div class="col-lg-3 col-md-3 col-xs-6 col-6">
-                                        <a class="quick-tool-link" href="request-form.html">
-                                            <div class="item dar pro quick-tool-pro first">
-                                                <div class="icon quick-tool-icon">
-                                                    <i class="fa fa-wrench" aria-hidden="true"></i>
-                                                </div>
-                                                <div class="">
-                                                    <p class="type p-sm-lh-20 sm-fs-14">Request Maintenance</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-xs-6 col-6">
-                                        <a class="quick-tool-link" href="outstanding.html">
-                                            <div class="item dar pro quick-tool-pro second">
-                                                <div class="icon quick-tool-icon">
-                                                    <i class="fa fa-credit-card" aria-hidden="true"></i>
-                                                </div>
-                                                <div class="">
-                                                    <p class="type p-sm-lh-20 sm-fs-14">Make Payment</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-xs-6 col-6">
-                                        <a class="quick-tool-link" href="report-issue.html">
-                                            <div class="item dar pro quick-tool-pro first">
-                                                <div class="icon quick-tool-icon">
-                                                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
-                                                </div>
-                                                <div class="">
-                                                    <p class="type p-sm-lh-20 sm-fs-14">Report An Issue</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-xs-6 col-6">
-                                        <a class="quick-tool-link" href="apartment-details.html">
-                                            <div class="item dar pro quick-tool-pro second">
-                                                <div class="icon quick-tool-icon">
-                                                    <i class="fa fa-home" aria-hidden="true"></i>
-                                                </div>
-                                                <div class="">
-                                                    <p class="type p-sm-lh-20 sm-fs-14">Apartment Details</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Quick Tools End-->
-                        <!--Recent Activity Begins-->
-                        <div id="history" class="dashborad-box">
-                            <div class="widget-boxed-header">
-                                <h4>Recent Activity</h4>
-                            </div>
-                            <div class="section-body listing-table">
-                                <div class="table-responsive">
-                                    <table class="table table-striped">
-                                        <thead>
-                                            <tr>
-                                                <th>Activities</th>
-                                                <th>Date</th>
-                                                <th>Amount ($)</th>
-                                                <th>Status</th>
-                                                <th></th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Bank transfer</td>
-                                                <td>Jan 23rd, 2023</td>
-                                                <td class="amount">1000</td>
-                                                <td class="status"><span class=" active">Successful</span></td>
-                                                <td class="activity-detail-btn"><a href="transaction-details.html">Details</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Tax payment</td>
-                                                <td>Feb 3rd, 2023</td>
-                                                <td class="amount">100</td>
-                                                <td class="status"><span class=" active">Successful</span></td>
-                                                <td class="activity-detail-btn"><a href="transaction-details.html">Details</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Bank transfer</td>
-                                                <td>Mar 1st, 2023</td>
-                                                <td class="amount">500</td>
-                                                <td class="status"><span class=" active">Successful</span></td>
-                                                <td class="activity-detail-btn"><a href="transaction-details.html">Details</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Bank transfer</td>
-                                                <td>Apr 16th, 2023</td>
-                                                <td class="amount">200</td>
-                                                <td class="status"><span class=" active">Successful</span></td>
-                                                <td class="activity-detail-btn"><a href="transaction-details.html">Details</a></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Recent Activity Ends-->
+                        <!--Maintenance Request Form Ends-->
+                     
                         <!-- START FOOTER -->
                         <div class="second-footer">
                             <div class="container">
